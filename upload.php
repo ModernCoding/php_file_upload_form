@@ -30,10 +30,10 @@
 
 
   // Check file size
-  // if ($_FILES["file"]["size"] > 500000) {
-  //   echo "Sorry, your file is too large.";
-  //   $uploadOk = FALSE;
-  // }
+  if ($_FILES["file"]["size"] > 500000) {
+    echo "Sorry, your file is too large.";
+    $uploadOk = FALSE;
+  }
 
 
   // Allow certain file formats
