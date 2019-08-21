@@ -52,7 +52,6 @@
   if ($uploadOk) {
 
     // creating the target directory if it does not exist yet
-    echo is_dir($targetDir);
     if(!is_dir($targetDir))
     {
       mkdir($targetDir);
